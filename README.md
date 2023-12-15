@@ -7,26 +7,45 @@
 
 # Key Features
 
-- TypeScript
-  Angular is built with TypeScript, a superset of JavaScript, which brings strong typing and other advanced features to JavaScript development.
+## 1. Structured Framework:
 
-- Component-Based Architecture
-  It follows a component-based architecture where the application is divided into reusable and manageable components.
+Angular provides a well-defined structure that helps in organizing code efficiently. Its modular approach with components, services, and modules makes code more maintainable and scalable.
 
-- Two-Way Data Binding
-  Angular offers powerful data binding capabilities, including both one-way and two-way data binding, simplifying the synchronization between the model and the view.
+## 2. Powerful Templating and Data Binding:
 
-- Directives
-  Directives like ngIf, ngFor, and ngStyle allow developers to manipulate the DOM, control rendering, and add behavior to HTML elements.
+Angular’s two-way data binding simplifies the synchronization between the model and the view, reducing the need for manual DOM manipulation.
 
-- Dependency Injection
-  Angular comes with a built-in dependency injection system that makes components highly modular, reusable, and testable.
+## 3. Dependency Injection:
 
-- Routing
-  It provides a robust router for building SPAs, enabling navigation between different views or pages within the application.
+Built-in dependency injection simplifies component management, making the codebase more modular, reusable, and testable.
 
-- Reactive Programming Support
-  With RxJS (Reactive Extensions for JavaScript), Angular supports reactive programming and enables handling asynchronous operations with ease.
+## 4. TypeScript:
+
+Angular is built with TypeScript, a superset of JavaScript that adds strong typing, improved tooling, and better error detection to JavaScript development.
+
+## 5. Rich Ecosystem and Community Support:
+
+Angular has a vast ecosystem with tools like Angular CLI for project scaffolding, Angular Material for UI components, and NgRx for state management. The community actively contributes libraries, extensions, and resources.
+
+## 6. MVVM (Model-View-ViewModel) Architecture:
+
+Angular follows the MVVM architecture, making it easier to separate concerns, manage application logic, and enhance testability.
+
+## 7. Cross-Platform Development:
+
+With Angular, developers can use the same codebase to build applications for the web, mobile (using frameworks like NativeScript or Ionic), and desktop (using Electron).
+
+## 8. Comprehensive Tooling:
+
+Angular offers a comprehensive set of tools and libraries for testing, debugging, and performance optimization, aiding in faster development cycles.
+
+## 9. Robust Routing and Navigation:
+
+Angular’s router provides powerful features for handling navigation and routing between different views or pages within an application.
+
+## 10. Backed by Google:
+
+Angular is maintained and backed by Google, which ensures continuous updates, improvements, and long-term support.
 
 # Getting Started
 
@@ -34,5 +53,18 @@ To begin with Angular, you need to install Angular CLI: `npm install -g @angular
 
 Then, follow these steps:
 
-- Create a new Angular project: `ng new project-name`
+- Create a new Angular project: `ng new --no-standalone project-name`
 - Run the development server: `ng serve`
+
+# Project structure
+
+`├── dir1
+│   ├── file11.ext
+│   └── file12.ext
+├── dir2
+│   ├── file21.ext
+│   ├── file22.ext
+│   └── file23.ext
+├── dir3
+├── file_in_root.ext
+└── README.md`
