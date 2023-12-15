@@ -142,6 +142,14 @@ https://angular.dev/overview
 
 How to Run:
 
-1. Run backend follow this steps: -`cd angular17-curd/server` -`npm i` -`npm start`
+1. Run backend follow this steps:
 
-2. Run frontend follow this steps: -`cd angular17-curd` -`npm i` -`npm start`
+- `cd angular17-curd/server`
+- `npm i`
+- `npm start`
+
+2. Run frontend follow this steps:
+
+- `cd angular17-curd`
+- `npm i`
+- `npm start`
