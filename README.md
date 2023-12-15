@@ -57,8 +57,9 @@ Then, follow these steps:
 - Run the development server: `ng serve`
 
 # Project structure
-
-`├── dir1
+$ tree
+.
+├── dir1
 │   ├── file11.ext
 │   └── file12.ext
 ├── dir2
@@ -67,4 +68,6 @@ Then, follow these steps:
 │   └── file23.ext
 ├── dir3
 ├── file_in_root.ext
-└── README.md`
+└── README.md
+
+3 directories, 7 files
